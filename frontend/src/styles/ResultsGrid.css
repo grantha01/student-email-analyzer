@@ -1,0 +1,15 @@
+.results-section {
+    margin-top: 40px;
+}
+
+.results-title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #1f2937;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}

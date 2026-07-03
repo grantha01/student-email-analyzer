@@ -1,0 +1,36 @@
+.dashboard-layout {
+    display: flex;
+    background: #f5f7fb;
+    min-height: calc(100vh - 70px);
+}
+
+.dashboard-content {
+    flex: 1;
+    padding: 35px 40px;
+}
+
+.dashboard-title {
+    font-size: 34px;
+    color: #1f2937;
+    margin-bottom: 8px;
+}
+
+.dashboard-subtitle {
+    color: #6b7280;
+    margin-bottom: 35px;
+}
+
+.top-section {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 35px;
+}
+
+.actions-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}

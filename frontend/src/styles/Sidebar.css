@@ -1,0 +1,40 @@
+.sidebar {
+    width: 250px;
+    min-height: calc(100vh - 70px);
+    background: #ffffff;
+    border-right: 1px solid #e5e7eb;
+    padding: 25px 18px;
+}
+
+.sidebar-title {
+    font-size: 24px;
+    color: #374151;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+    background: #2563eb;
+    color: white;
+    transform: translateX(5px);
+}
+
+.menu-icon {
+    font-size: 22px;
+}
+
+.version {
+    margin-top: 40px;
+    color: gray;
+    font-size: 14px;
+}

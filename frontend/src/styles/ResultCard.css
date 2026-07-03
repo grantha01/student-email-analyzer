@@ -1,0 +1,25 @@
+.result-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.result-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.15);
+}
+
+.result-title {
+    color: #2563eb;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.result-content {
+    color: #4b5563;
+    line-height: 1.6;
+    min-height: 70px;
+}
